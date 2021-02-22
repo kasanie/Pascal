@@ -24,7 +24,7 @@ begin
   Randomize;
   for J:= 1 to N do begin
     for I:= 1 to 5 do begin
-      C[I, J]:= Random(-100,100);
+      C[I, J]:= Random(-99,99);
       Write(C[I, J]: 4);
       Write(F, C[I, J]: 4);
     end;
